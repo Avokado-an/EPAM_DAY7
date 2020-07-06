@@ -15,6 +15,7 @@ public class Main {
                 choice = in.nextInt();
             } catch (InputMismatchException ex) {
                 System.out.println("Wrong input. Default settings applied");
+                choice = 0;
             }
             String country = "";
             String language = "";
