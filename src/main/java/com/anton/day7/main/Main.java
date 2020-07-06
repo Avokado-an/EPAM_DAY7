@@ -27,7 +27,7 @@ public class Main {
                 language = "DE";
             }
             Locale current = new Locale(language, country);
-            ResourceBundle rb = ResourceBundle.getBundle("data.text", current);
+            ResourceBundle rb = ResourceBundle.getBundle("property.text", current);
             String congratulation1 = rb.getString("congratulation1");
             System.out.println(congratulation1);
             String congratulation2 = rb.getString("congratulation2");
